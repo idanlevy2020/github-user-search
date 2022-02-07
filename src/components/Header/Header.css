@@ -1,0 +1,24 @@
+.Header{
+   justify-content:space-between;
+   align-items:center;
+}
+
+.Header > .title{
+   font-size: 26px;
+   font-weight: bold;
+}
+
+.Header > .theme{
+   font-size: 13px;
+}
+
+.toggleBtn{
+   background-image: var(--buttonmode);
+   background-color: transparent;
+   width: 20px;
+   height: 20px;
+   background-size: cover;
+   border: none;
+   margin-left:18px;
+}
+
