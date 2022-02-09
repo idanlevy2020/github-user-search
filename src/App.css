@@ -1,9 +1,11 @@
 :root {
   --light-mode-bgcolor: #f6f8ff;
   --light-mode-textcolor: #4b6a9b;
+  --light-mode-box-bgcolor: #fefefe;
   --dark-mode-bgcolor: #141d2f;
   --dark-mode-textcolor: #fff;
-  --buttonmode: url("/public/icons/icon-moon.svg");
+  --dark-mode-box-bgcolor: #1e2a47;
+  /* --buttonmode: url("/public/icons/icon-moon.svg"); */
 }
 
 .App {
@@ -15,15 +17,23 @@
   width: 730px;
 }
 
-.dark-mode {
-  background-color: var(--dark-mode-bgcolor);
-  color: var(--dark-mode-textcolor);
-  --buttonmode: url("/public/icons/icon-sun.svg");
-}
-
 .light-mode {
   background-color: var(--light-mode-bgcolor);
   color: var(--light-mode-textcolor);
+  --header-title-color: #222731;
+  --toggleBtnText-color: var(--light-mode-textcolor);
+  --input-search-color: var(--light-mode-textcolor);
+  --input-search-bgcolor: var(--light-mode-box-bgcolor);
+}
+
+.dark-mode {
+  background-color: var(--dark-mode-bgcolor);
+  color: var(--dark-mode-textcolor);
+  --header-title-color : var(--dark-mode-textcolor);
+  --toggleBtnText-color: var(--dark-mode-textcolor);
+  --input-search-color: var(--dark-mode-textcolor);
+  --input-search-bgcolor: var(--dark-mode-box-bgcolor);
+  /* --buttonmode: url("/public/icons/icon-sun.svg"); */
 }
 
 button {
