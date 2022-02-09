@@ -5,16 +5,15 @@
   --dark-mode-bgcolor: #141d2f;
   --dark-mode-textcolor: #fff;
   --dark-mode-box-bgcolor: #1e2a47;
-  /* --buttonmode: url("/public/icons/icon-moon.svg"); */
 }
 
 .App {
-  text-align: center;
   justify-content: center;
 }
 
 .App > .app-content {
   width: 730px;
+  height: 900px;
 }
 
 .light-mode {
@@ -24,6 +23,7 @@
   --toggleBtnText-color: var(--light-mode-textcolor);
   --input-search-color: var(--light-mode-textcolor);
   --input-search-bgcolor: var(--light-mode-box-bgcolor);
+  --userInfoBox-bgcolor : var(--light-mode-bgcolor);
 }
 
 .dark-mode {
@@ -33,7 +33,7 @@
   --toggleBtnText-color: var(--dark-mode-textcolor);
   --input-search-color: var(--dark-mode-textcolor);
   --input-search-bgcolor: var(--dark-mode-box-bgcolor);
-  /* --buttonmode: url("/public/icons/icon-sun.svg"); */
+  --userInfoBox-bgcolor : var(--dark-mode-bgcolor);
 }
 
 button {
@@ -44,6 +44,7 @@ button {
    /* For tablets: */
    .App > .app-content {
       width: 573px;
+      height: 1024px;
    }
 }
 
@@ -51,5 +52,6 @@ button {
    /* For mobile phones: */
    .App > .app-content {
       width: 327px;
+      height: 777px;
    }
 }
