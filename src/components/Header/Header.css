@@ -6,19 +6,21 @@
 .Header > .title{
    font-size: 26px;
    font-weight: bold;
-}
-
-.Header > .theme{
-   font-size: 13px;
+   color: var(--header-title-color);
 }
 
 .toggleBtn{
-   background-image: var(--buttonmode);
-   background-color: transparent;
-   width: 20px;
-   height: 20px;
-   background-size: cover;
+   background-color: transparent; 
    border: none;
-   margin-left:18px;
+   display:flex;
+   align-items: center;
+}
+
+.toggleBtn> .btnText{
+   font-size: 13px;
+   letter-spacing: 2.5px;
+   font-weight: bold;
+   color: var(--toggleBtnText-color);
+   margin-right:18px;
 }
 
