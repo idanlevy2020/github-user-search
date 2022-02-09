@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 import { useState } from 'react';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <div className={`App flex-row ${appClassName}`}>
          <div className="app-content">
             <Header theme={theme} toggleTheme={toggleTheme}/>
+            <Main/>
          </div>
       </div>
    );
