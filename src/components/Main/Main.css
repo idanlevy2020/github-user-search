@@ -50,64 +50,14 @@
 .Main > .userInfoBox {
    font-size: 15px;
    height: 444px;
-   justify-content: space-around;
    padding: 0px 48px;
    box-shadow: 0 4px 8px 0 #00000033;
-}
-
-.userInfoBox > .name {
-   font-size: 16px;
-   font-weight: bold;
-}
-
-.userInfoBox > .email {
-   color:lightblue;
-}
-
-.userInfoBox .userInfo-part1 img{
-   margin-right: 16px;
-   width: 100px;
-   height: 100px;
-}
-
-.userInfoBox .userInfo-part2{
-   line-height: 1.92;
-}
-
-.userInfoBox .userInfo-part3{
-   background-color: var(--userInfoBox-bgcolor);
-   justify-content:space-around;
-   border-radius: 10px;
-}
-
-.userInfo-part3 .desc{
-   font-size: 22px;
-   font-weight: bold;
-   margin-top: 0px;
-}
-
-.userInfoBox .userInfo-part4 .userInfo-part4-box1{
-   margin-right: 62px;
-}
-
-.userInfoBox .userInfo-part4 .box{
-   align-items: center;
-}
-
-.userInfoBox .userInfo-part4 img{
-   margin-right:14px;
-   width:18px;
-   height:20px;
 }
 
 @media screen and (max-width: 767px) {
    /* For tablets: */
    .Main > .userInfoBox {
       padding: 52px 40px 40px 40px;
-   }
-
-   .userInfoBox .userInfo-part4 .userInfo-part4-box1{
-      margin-right: 65px;
    }
 }
 
@@ -130,13 +80,5 @@
       font-size: 13px;
       height: 517px;
       padding: 0px 24px;
-   }
-
-   .userInfoBox .userInfo-part4{
-      flex-direction: column;
-   }
-
-   .userInfoBox .userInfo-part4 .userInfo-part4-box1{
-      margin-right: 0px;
    }
 }
