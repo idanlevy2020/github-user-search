@@ -15,8 +15,9 @@
 
 .UserDetalis .userInfo-part1 img{
    margin-right: 16px;
-   width: 100px;
-   height: 100px;
+   width: 117px;
+   height: 117px;
+   border-radius: 50%;
 }
 
 .UserDetalis .userInfo-part2{
