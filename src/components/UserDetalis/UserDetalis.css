@@ -1,0 +1,69 @@
+.UserDetalis{
+   width: 100%;
+   height: 100%;
+   justify-content: space-around;
+}
+
+.UserDetalis .name {
+   font-size: 16px;
+   font-weight: bold;
+}
+
+.UserDetalis .login {
+   color:lightblue;
+}
+
+.UserDetalis .userInfo-part1 img{
+   margin-right: 16px;
+   width: 100px;
+   height: 100px;
+}
+
+.UserDetalis .userInfo-part2{
+   line-height: 1.92;
+}
+
+.UserDetalis .userInfo-part3{
+   background-color: var(--userInfoBox-bgcolor);
+   justify-content:space-around;
+   border-radius: 10px;
+}
+
+.userInfo-part3 .desc{
+   font-size: 22px;
+   font-weight: bold;
+   margin-top: 0px;
+}
+
+.userInfo-part4 .userInfo-part4-box1{
+   margin-right: 62px;
+}
+
+.userInfo-part4 .box{
+   align-items: center;
+}
+
+.userInfo-part4 img{
+   margin-right:14px;
+   width:18px;
+   height:20px;
+}
+
+@media screen and (max-width: 767px) {
+   /* For tablets: */
+   .userInfo-part4 .userInfo-part4-box1{
+      margin-right: 65px;
+   }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 620px) {
+   /* For mobile phones: */
+   .userInfoBox .userInfo-part4{
+      flex-direction: column;
+   }
+
+   .userInfoBox .userInfo-part4 .userInfo-part4-box1{
+      margin-right: 0px;
+   }
+}
