@@ -12,6 +12,7 @@
 .toggleBtn{
    background-color: transparent; 
    border: none;
+   outline: none;
    display:flex;
    align-items: center;
 }
@@ -22,5 +23,17 @@
    font-weight: bold;
    color: var(--toggleBtnText-color);
    margin-right:18px;
+}
+
+.toggleBtn img{
+   opacity: 0.8;
+}
+
+.toggleBtn img:hover{
+   opacity: 1;
+}
+
+.toggleBtn> .btnText:hover{
+   color: #4591e7;
 }
 
